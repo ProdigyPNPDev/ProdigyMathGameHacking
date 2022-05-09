@@ -7,7 +7,7 @@ import { Swal, Toast, NumberInput, Input, Confirm } from "../utils/swal";
 import { Hack, category, Toggler } from "../index"; // Import the Cheat GUI bases.
 import { _, getItem, VERY_LARGE_NUMBER, prodigy, game, saveCharacter} from "../utils/util"; // Import Prodigy typings and VERY_LARGE_NUMBER
 import { Item } from "../../../typings/item"; // Import Prodigy Item typings
-import { TODO } from "../../../typings/util"; // Import Prodigy Util typings
+import { TO_DO } from "../../../typings/util"; // Import Prodigy Util typings
 // END IMPORTS
 
 

@@ -17,5 +17,5 @@ export declare interface DebugMisc {
 	_joinDelay: unknown;
 	_playerLimit: null;
 	disableTimeoutDialogue(): void;
-	[index: string]: TODO;
+	[index: string]: TO_DO;
 }

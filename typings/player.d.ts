@@ -1,4 +1,4 @@
-import { TODO } from "./util";
+import { TO_DO } from "./util";
 import { Game } from "./game";
 import { Item } from "./item";
 import { Backpack } from "./backpack";
@@ -36,24 +36,24 @@ export declare class Player {
 	static levelFromStars(stars: number): number;
 	static starsToLevel(stars: number): number
 	static MAX_HEARTS: number
-	achievements: TODO;
-	appearance: TODO;
+	achievements: TO_DO;
+	appearance: TO_DO;
 	backpack: Backpack;
-	daily: TODO;
-	dailyQuestions: TODO;
-	encounters: TODO;
-	equipment: TODO;
-	house: TODO;
+	daily: TO_DO;
+	dailyQuestions: TO_DO;
+	encounters: TO_DO;
+	equipment: TO_DO;
+	house: TO_DO;
 	kennel: {
 		addPet(id: number): unknown
 		data: Pet[];
 		petTeam: Pet[];
 	};
-	onHPChange: TODO;
-	quests: TODO;
-	state: TODO;
-	_remoteLogger: TODO;
-	tutorial: TODO;
+	onHPChange: TO_DO;
+	quests: TO_DO;
+	state: TO_DO;
+	_remoteLogger: TO_DO;
+	tutorial: TO_DO;
 	game: Game;
 	immortal: boolean;
 	inPVP: boolean;
@@ -266,7 +266,7 @@ export declare interface PlayerName {
 		nickname: number | null;
 	};
 	gender: "male" | "female";
-	localizer: { dataSource: TODO };
+	localizer: { dataSource: TO_DO };
 }
 export declare class PlayerData {
 	allowsHouseVisitors: boolean;

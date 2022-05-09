@@ -1,12 +1,12 @@
 import { Prodigy } from "./prodigy";
-import { TODO } from "./util";
+import { TO_DO } from "./util";
 import { gameData } from "./gameData";
 
 export declare interface Game {
 	id: number; // Not sure what this does. Seems to be 0.
 	state: GameState;
-	input: TODO;
-	spriteBatch: TODO;
+	input: TO_DO;
+	spriteBatch: TO_DO;
 }
 export declare interface GameState {
 	states: GameStates;
@@ -42,7 +42,7 @@ export declare interface GameStatesState {
 export declare interface BootState extends GameStatesState {
 	key: "Boot";
 	_gameData: gameData;
-	_metricsManager: TODO;
+	_metricsManager: TO_DO;
 }
 export declare interface PVPState extends GameStatesState {
 	key: "PVP";
@@ -51,7 +51,7 @@ export declare interface PVPState extends GameStatesState {
 export declare interface BattleState extends GameStatesState {
 	key: "Battle";
 	startVictory(): void;
-	teams: TODO[];
+	teams: TO_DO[];
 }
 export declare interface LoginState extends GameStatesState {
 	key: "Login";

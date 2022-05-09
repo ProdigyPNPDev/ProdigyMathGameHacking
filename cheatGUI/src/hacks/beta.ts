@@ -9,7 +9,7 @@ import { Swal, Toast, NumberInput, Input, Confirm } from "../utils/swal"; // Imp
 import { Hack, category, Toggler } from "../index"; // Import the Cheat GUI bases.
 import { _, getItem, VERY_LARGE_NUMBER, prodigy, game, saveCharacter} from "../utils/util";  // Import prodigy typings, and VERY_LARGE_NUMBER
 import { Item } from "../../../typings/item";  // Import prodigy Item typings
-import { TODO } from "../../../typings/util";  // Import TODO typings
+import { TO_DO } from "../../../typings/util";  // Import TO_DO typings
 // END IMPORTS
 
 
@@ -518,7 +518,7 @@ const getPet = async (text: string): Promise<number | undefined> => {
 	const pet = await Swal.fire({
 		input: "select",
 		inputOptions: new Map(
-			_.player.kennel.data.map((x: TODO, i: number) => [
+			_.player.kennel.data.map((x: TO_DO, i: number) => [
 				i.toString(),
 				`Level ${x.level} - ${x.nickname ?? _.gameData.pet.find(y => +y.ID === +x.ID)?.data.name ?? "Unknown"}`
 			]) as [string, string][]

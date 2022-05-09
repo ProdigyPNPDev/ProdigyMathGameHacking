@@ -1,7 +1,7 @@
 import { Game } from "./game";
 import { Player } from "./player";
 import { DebugMisc } from "./debugMisc";
-import { TODO } from "./util";
+import { TO_DO } from "./util";
 import { Open } from "./open";
 import { GameContainer } from "./gameContainer";
 
@@ -9,16 +9,16 @@ export declare interface Prodigy {
 	version: string;
 	game: Game;
 	// debugMisc: DebugMisc;
-	world: TODO;
-	giftBoxController: TODO;
+	world: TO_DO;
+	giftBoxController: TO_DO;
 	open: Open;
-	// debugQuests: TODO;
-	user: TODO;
-	pvpNetworkHandler: TODO;
-	// network: TODO;
-	classModeController: TODO;
+	// debugQuests: TO_DO;
+	user: TO_DO;
+	pvpNetworkHandler: TO_DO;
+	// network: TO_DO;
+	classModeController: TO_DO;
 	gameContainer: GameContainer;
-	dialogue: TODO;
-	notifications: TODO;
-	battle: TODO;
+	dialogue: TO_DO;
+	notifications: TO_DO;
+	battle: TO_DO;
 }

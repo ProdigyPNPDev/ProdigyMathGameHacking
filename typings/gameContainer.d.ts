@@ -1,5 +1,5 @@
 import { Game } from "./game";
-import { TODO } from "./util";
+import { TO_DO } from "./util";
 
 type Bindings =
 	| "Game"
@@ -94,7 +94,7 @@ export declare interface InversifyContainer {
 	applyCustomMetadataReader(arg0: unknown): unknown;
 	applyMiddleware(): unknown;
 	createChild(): unknown;
-	get<T extends Bindings>(binding: T): T extends keyof Mapping ? Mapping[T] : TODO;
+	get<T extends Bindings>(binding: T): T extends keyof Mapping ? Mapping[T] : TO_DO;
 }
 export declare interface GameContainer {
 	inversifyContainer: InversifyContainer;
@@ -138,7 +138,7 @@ export declare interface Dialogue {
 	};
 }
 export declare class DialogueBuilder {
-	_controller: TODO;
+	_controller: TO_DO;
 	_events: Dialogue[];
 	_showGuideHand: {
 		_hands: Map<unknown, unknown>;

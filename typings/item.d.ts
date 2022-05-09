@@ -1,4 +1,4 @@
-import { TODO } from "./util";
+import { TO_DO } from "./util";
 
 export declare interface Item<T extends string = string> extends PartialItem<T> {
 	assetID: number;

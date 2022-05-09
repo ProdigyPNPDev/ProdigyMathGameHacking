@@ -1,1 +1,1 @@
-export type TODO = any;
+export type TO_DO = any;
